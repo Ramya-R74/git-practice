@@ -1,5 +1,9 @@
 import random
 
+def calculate_score():
+    # TODO: Need to implement scoring logic later
+    # testing git stash functionality
+
 def start_game():
     number_to_guess = random.randint(1, 10)
     print("Welcome to the AMAZING Guessing Game!")
