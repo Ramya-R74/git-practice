@@ -1,0 +1,14 @@
+import random
+
+def start_game():
+    number_to_guess = random.randint(1, 10)
+    print("Welcome to the Guessing Game!")
+    guess = int(input("Guess a number between 1 and 10: "))
+
+    if guess == number_to_guess:
+        print("You win!")
+    else:
+        print(f"You lost! The number was {number_to_guess}")
+
+if __name__ == "__main__":
+    start_game()
